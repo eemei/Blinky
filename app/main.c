@@ -11,20 +11,19 @@ void delay (uint32_t delaycount){
 }
 
 int main(void) {
-	configurePort(GPIO_OUTPUT, GPIO_PIN_14, GPIOG);
-	/*configurePort(GPIO_OUTPUT, GPIO_PIN_13, GPIOG);
-	configurePort(GPIO_OUTPUT, GPIO_PIN_13, GPIOB); //GREEN
-	configurePort(GPIO_OUTPUT, GPIO_PIN_5, GPIOC);	//RED*/
-
+	configurePort(GPIO_MODE_OUTPUT, PIN_14,	PORTG);
+	configurePort(GPIO_MODE_OUTPUT, PIN_13,	PORTG);
+	configurePort(GPIO_MODE_OUTPUT, PIN_5,	PORTC);
+	configurePort(GPIO_MODE_OUTPUT, PIN_13,	PORTB);
 
     while(1) {
-    	delay(1000000);
+    	delay(100000);
     	writeOne(GPIO_PIN_14, GPIOG);
     	writeZero(GPIO_PIN_13, GPIOG);
     	writeOne(GPIO_PIN_5, GPIOC);   //pc5
     	writeZero(GPIO_PIN_13, GPIOB); //pb13
 
-    	delay(1000000);
+    	delay(100000);
     	writeZero(GPIO_PIN_14, GPIOG);
     	writeOne(GPIO_PIN_13, GPIOG);
     	writeZero(GPIO_PIN_5, GPIOC);
