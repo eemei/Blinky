@@ -14,15 +14,15 @@
 	 ptr[1] = 0; 			//otype.pin14 = push-pull;
 	 ptr[2] = 0x28000000;	//ospeed.pin14 = high speed;
 
-	 int *ptr1 = (int *)0x40020800;	//portc
-	 ptr1[0] = 0x10000000;
+	 int *ptr1 = (int *)0x40020800;	//portC
+	 ptr1[0] = 0x00000400;
 	 ptr1[1] = 0;
-	 ptr1[2] = 0x20000000;
+	 ptr1[2] = 0x00000000;
 
 	 int *ptr3 = (int *)0x40020400;	//portB
-	 ptr3[0] = 0x10000000;
+	 ptr3[0] = 0x04000000;
 	 ptr3[1] = 0;
-	 ptr3[2] = 0x20000000;
+	 ptr3[2] = 0x28000000;
 
 	/* GpioInfo.Pin = pinNum;
 	 GpioInfo.Mode = direction;
