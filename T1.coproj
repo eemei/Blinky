@@ -86,7 +86,7 @@
     <File name="Hardware/stm32f4xx_hal_conf.h" path="../STM32Cube_FW_F4_V1.5.0/Projects/STM32F429I-Discovery/Templates/Inc/stm32f4xx_hal_conf.h" type="1"/>
     <File name="Config/stm32f4xx.h" path="app/Config/stm32f4xx.h" type="1"/>
     <File name="Core/core_cmInstr.h" path="../STM32Cube_FW_F4_V1.5.0/Drivers/CMSIS/Include/core_cmInstr.h" type="1"/>
-    <File name="App/Gpio.c" path="../Gpio.c" type="1"/>
+    <File name="App/Gpio.c" path="app/App/Gpio.c" type="1"/>
     <File name="Config/system_stm32f4xx.c" path="app/Config/system_stm32f4xx.c" type="1"/>
     <File name="App/LED.h" path="../LED.h" type="1"/>
     <File name="Config/stm32f4xx_hal_conf.h" path="app/Config/stm32f4xx_hal_conf.h" type="1"/>
@@ -98,11 +98,11 @@
     <File name="App/LED1.c" path="../LED1.c" type="1"/>
     <File name="Hardware/stm32f4xx_hal_gpio.h" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h" type="1"/>
     <File name="Hardware/stm32f4xx_hal_cortex.h" path="../../CoIDE/workspace/STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h" type="1"/>
-    <File name="App/Gpio.h" path="../Gpio.h" type="1"/>
+    <File name="App/Gpio.h" path="app/App/Gpio.h" type="1"/>
     <File name="Hardware/stm32f4xx_hal_rcc.c" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" type="1"/>
     <File name="Core" path="" type="2"/>
-    <File name="App/LED3.c" path="../LED3.c" type="1"/>
     <File name="Config" path="" type="2"/>
+    <File name="App/LED3.c" path="../LED3.c" type="1"/>
   </Files>
   <Bookmarks/>
 </Project>

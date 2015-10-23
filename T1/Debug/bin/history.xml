@@ -1,19 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g2 -Map=T1.map -O0 --gc-sections -LC:/Users/D203C-01/Desktop/T1 -TC:/Users/D203C-01/Desktop/T1/stm32f429zi_flash.ld -g">
-      <target file="T1.elf" lastModified="1506f80fa19">
-         <source file="..\obj\main.o" lastModified="1506f805405"/>
-         <source file="..\obj\stm32f4xx_hal_cortex.o" lastModified="1506f7d9962"/>
-         <source file="..\obj\LED2.o" lastModified="1506f7d9bfc"/>
-         <source file="..\obj\stm32f4xx_hal.o" lastModified="1506f7d976e"/>
-         <source file="..\obj\Gpio.o" lastModified="1506f80f5a3"/>
-         <source file="..\obj\system_stm32f4xx.o" lastModified="1506f7d99ee"/>
-         <source file="..\obj\stm32f4xx_hal_gpio.o" lastModified="1506f7d9b36"/>
-         <source file="..\obj\Button.o" lastModified="1506f7d9c8d"/>
-         <source file="..\obj\startup_stm32f429xx.o" lastModified="1506f7d9599"/>
-         <source file="..\obj\LED1.o" lastModified="1506f7d9ba3"/>
-         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="1506f7d9868"/>
-         <source file="..\obj\LED3.o" lastModified="1506f7d9c3f"/>
+      <target file="T1.elf" lastModified="15093979dd7">
+         <source file="..\obj\main.o" lastModified="1509396a1d6"/>
+         <source file="..\obj\stm32f4xx_hal_cortex.o" lastModified="150936d374f"/>
+         <source file="..\obj\stm32f4xx_hal.o" lastModified="150936d3451"/>
+         <source file="..\obj\Gpio.o" lastModified="15093979b77"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="150936d3811"/>
+         <source file="..\obj\stm32f4xx_hal_gpio.o" lastModified="150936d39f8"/>
+         <source file="..\obj\startup_stm32f429xx.o" lastModified="150936d3250"/>
+         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="150936d360f"/>
       </target>
    </processor>
 </history>
