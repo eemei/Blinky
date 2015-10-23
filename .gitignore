@@ -1,4 +1,4 @@
-Blinky
+T1
 build/*
 !build/README.txt
 arm-gcc-link.ld
