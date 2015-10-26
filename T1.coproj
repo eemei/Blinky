@@ -79,8 +79,8 @@
     <File name="Hardware/stm32f4xx_hal_cortex.c" path="../../CoIDE/workspace/STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" type="1"/>
     <File name="App/Button.h" path="../Button.h" type="1"/>
     <File name="App/LED2.c" path="../LED2.c" type="1"/>
-    <File name="Hardware/stm32f4xx_hal_rcc.h" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" type="1"/>
     <File name="Core/core_cmSimd.h" path="../STM32Cube_FW_F4_V1.5.0/Drivers/CMSIS/Include/core_cmSimd.h" type="1"/>
+    <File name="Hardware/stm32f4xx_hal_rcc.h" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" type="1"/>
     <File name="Config/system_stm32f4xx.h" path="app/Config/system_stm32f4xx.h" type="1"/>
     <File name="Hardware/stm32f4xx_hal.c" path="../../CoIDE/workspace/STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" type="1"/>
     <File name="Hardware/stm32f4xx_hal_conf.h" path="../STM32Cube_FW_F4_V1.5.0/Projects/STM32F429I-Discovery/Templates/Inc/stm32f4xx_hal_conf.h" type="1"/>
@@ -96,8 +96,8 @@
     <File name="Config/startup_stm32f429xx.s" path="app/Config/startup_stm32f429xx.s" type="1"/>
     <File name="Hardware/stm32f4xx_hal_def.h" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h" type="1"/>
     <File name="App/LED1.c" path="../LED1.c" type="1"/>
-    <File name="Hardware/stm32f4xx_hal_gpio.h" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h" type="1"/>
     <File name="Hardware/stm32f4xx_hal_cortex.h" path="../../CoIDE/workspace/STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h" type="1"/>
+    <File name="Hardware/stm32f4xx_hal_gpio.h" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h" type="1"/>
     <File name="App/Gpio.h" path="app/App/Gpio.h" type="1"/>
     <File name="Hardware/stm32f4xx_hal_rcc.c" path="../STM32Cube_FW_F4_V1.5.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" type="1"/>
     <File name="Core" path="" type="2"/>

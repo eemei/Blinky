@@ -5,9 +5,9 @@
 
 	 GPIO_InitTypeDef GpioInfo;
 
-	 __HAL_RCC_GPIOG_CLK_ENABLE();
-	 __HAL_RCC_GPIOB_CLK_ENABLE();
-	 __HAL_RCC_GPIOC_CLK_ENABLE();
+	 //__HAL_RCC_GPIOG_CLK_ENABLE();
+	 //__HAL_RCC_GPIOB_CLK_ENABLE();
+	 //__HAL_RCC_GPIOC_CLK_ENABLE();
 
 	/* int *ptr = (int *)0x40021800;
 	 ptr[0] = 0x14000000; 	//mode.pin14= output
@@ -24,13 +24,29 @@
 	 ptr3[1] = 0;
 	 ptr3[2] = 0x28000000;*/
 
+	 //RCC_GPIOG_CLK_ENABLE
+	 int *ptr = (int *)0x40023830;	//RCC offset 0X30, clock register= 1
+	 ptr[0] = 0x00100040;
 
-//((GPIO *)GPIOG_BASE_ADDRESS)
+	 int *ptr1 = (int *)0x40023810;	//RCC offset 0X10
+	 ptr1[0] = 0;
+
+	 //gpioUnresetEnableClock(PORTG);
+	 gpioUnresetEnableClock(GPIO *port) {
+		 switch (port) {
+		 case PORTG:break;
+
+		 }
+	 }
+
+
+
+//((GPIO *)GPIO_BASE_ADDRESS)
 	 port->MODER &= ~(3<<(pinNum* 2));		//mode.pin= output
 	 port->MODER |= mode << (pinNum * 2);
 	 port->OTYPER &= ~(1<<(pinNum));		//otype.pin = push-pull;
 	 port->OSPEEDR &= ~(3 << (pinNum* 2));	//ospeed.pin = high speed;
-	 port->OSPEEDR |= HIGH_SPEED << (pinNum * 2);
+	 port->OSPEEDR |= VERY_HIGH_SPEED << (pinNum * 2);
 
 /*//((GPIO *)GPIOB_BASE_ADDRESS)
 	 PORTB->MODER = 0x04000000;

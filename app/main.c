@@ -17,13 +17,13 @@ int main(void) {
 	configurePort(GPIO_MODE_OUTPUT, PIN_13,	PORTB);
 
     while(1) {
-    	delay(100000);
+    	delay(1000000);
     	writeOne(GPIO_PIN_14, GPIOG);
     	writeZero(GPIO_PIN_13, GPIOG);
     	writeOne(GPIO_PIN_5, GPIOC);   //pc5
     	writeZero(GPIO_PIN_13, GPIOB); //pb13
 
-    	delay(100000);
+    	delay(1000000);
     	writeZero(GPIO_PIN_14, GPIOG);
     	writeOne(GPIO_PIN_13, GPIOG);
     	writeZero(GPIO_PIN_5, GPIOC);

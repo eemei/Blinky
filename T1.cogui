@@ -14,10 +14,31 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/D203C-01/Desktop/T1/app/main.c" title="main.c" tooltip="C:/Users/D203C-01/Desktop/T1/app/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/T1/App/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="178" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Gpio.h" partName="Gpio.h" path="C:/Users/D203C-01/Desktop/T1/app/App/Gpio.h" title="Gpio.h" tooltip="C:/Users/D203C-01/Desktop/T1/app/App/Gpio.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/T1/App/Gpio.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1699" selectionTopPixel="704"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Gpio.c" partName="Gpio.c" path="C:/Users/D203C-01/Desktop/T1/app/App/Gpio.c" title="Gpio.c" tooltip="C:/Users/D203C-01/Desktop/T1/app/App/Gpio.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/T1/App/Gpio.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="964" selectionTopPixel="150"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f429xx.h" partName="stm32f429xx.h" path="C:/Users/D203C-01/Desktop/T1/app/Config/stm32f429xx.h" title="stm32f429xx.h" tooltip="C:/Users/D203C-01/Desktop/T1/app/Config/stm32f429xx.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/T1/Config/stm32f429xx.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="58" selectionOffset="70664" selectionTopPixel="17010"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
@@ -33,6 +54,9 @@
 <expanded>
 <element path="/T1"/>
 <element path="/T1/App"/>
+<element path="/T1/Config"/>
+<element path="/T1/Core"/>
+<element path="/T1/Hardware"/>
 </expanded>
 <selection>
 <element path="/T1/App/Gpio.c"/>
@@ -69,7 +93,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.coocox.builder.ui.views.ProjectView" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
 <alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
@@ -128,8 +152,8 @@
 </presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.21933962" ratioLeft="279" ratioRight="993" relationship="2" relative="org.eclipse.ui.internal.ViewStack@bbb5d0"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@19da37b" ratio="0.71903324" ratioLeft="714" ratioRight="279" relationship="2" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.28711256" ratioLeft="176" ratioRight="437" relationship="2" relative="org.eclipse.ui.internal.ViewStack@bbb5d0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@19da37b" ratio="0.7511521" ratioLeft="326" ratioRight="108" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
@@ -242,26 +266,192 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/T1/App/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/T1/App/Gpio.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/T1/App/Gpio.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/T1/App/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/T1/App/Gpio.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/T1/Config/stm32f429xx.h"/>
+</editors>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="1158" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="1">
+<position info="not_deleted" x="1031" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="1158" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="1">
+<position info="not_deleted" x="765" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="514" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="1">
+<position info="not_deleted" x="794" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="1107" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="1">
+<position info="not_deleted" x="794" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="1073" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="183" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="1">
+<position info="not_deleted" x="794" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="1073" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="183" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="1482" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="183" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="1221" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="183" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="1529" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="110" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="1849" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="700" y="10"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="1849" y="10"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="710" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="1849" y="10"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="710" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="757" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="796" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="836" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="622" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="1562" y="15"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="930" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="1240" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="920" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="622" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="1240" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="882" y="0"/>
+</item>
+<item historyLabel="stm32f429xx.h" index="5">
+<position info="not_deleted" x="70664" y="58"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="882" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="461" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="882" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="964" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="402" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="955" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="1699" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="178" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="1699" y="0"/>
+</item>
+<item active="true" historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="955" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="T1.coproj" tooltip="C:\Users\D203C-01\Desktop\T1\T1.coproj">
-<persistable uri="file:/C:/Users/D203C-01/Desktop/T1/T1.coproj"/>
-</file>
-<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage" name="" tooltip="">
-<persistable>
-<org.coocox.welcome.ui.WelcomePage/>
-</persistable>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="T1/main.c">
-<persistable path="/T1/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f429xx.h" tooltip="T1/Config/stm32f429xx.h">
+<persistable path="/T1/Config/stm32f429xx.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Gpio.c" tooltip="T1/App/Gpio.c">
 <persistable path="/T1/App/Gpio.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Gpio.h" tooltip="T1/App/Gpio.h">
+<persistable path="/T1/App/Gpio.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="T1/App/main.c">
+<persistable path="/T1/App/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sonfig.c" tooltip="T1/sonfig.c">
+<persistable path="/T1/sonfig.c"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="T1.coproj" tooltip="C:\Users\D203C-01\Desktop\T1\T1.coproj">
+<persistable uri="file:/C:/Users/D203C-01/Desktop/T1/T1.coproj"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="T1/main.c">
+<persistable path="/T1/main.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="LED3.c" tooltip="T1/App/LED3.c">
 <persistable path="/T1/App/LED3.c"/>
@@ -284,14 +474,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_hal_rcc.h" tooltip="T1/Hardware/stm32f4xx_hal_rcc.h">
 <persistable path="/T1/Hardware/stm32f4xx_hal_rcc.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_hal_gpio.h" tooltip="T1/Hardware/stm32f4xx_hal_gpio.h">
-<persistable path="/T1/Hardware/stm32f4xx_hal_gpio.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Gpio.h" tooltip="T1/App/Gpio.h">
-<persistable path="/T1/App/Gpio.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_hal_gpio.c" tooltip="T1/Hardware/stm32f4xx_hal_gpio.c">
-<persistable path="/T1/Hardware/stm32f4xx_hal_gpio.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Gpio.c" tooltip="T1/App/Gpio.c">
+<persistable path="/T1/App/Gpio.c"/>
 </file>
 </mruList>
 </workbench>

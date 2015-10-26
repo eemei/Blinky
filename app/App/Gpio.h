@@ -21,6 +21,45 @@ struct GPIO_t{
 	uint32_t AFRH;
 };
 
+//typedef struct RCC_t RCC;
+struct RCC_t{
+	uint32_t CR;
+	uint32_t PLLCFGR;
+	uint32_t CFGR;
+	uint32_t CIR;
+	uint32_t AHB1RSTR;
+	uint32_t AHB2RSTR;
+	uint32_t AHB3RSTR;
+	uint32_t Reserved0X1C;
+	uint32_t APB1RSTR;
+	uint32_t APB2RSTR;
+	uint32_t Reserved0X28;
+	uint32_t Reserved0X2C;
+	uint32_t AHB1ENR;
+	uint32_t AHB2ENR;
+	uint32_t AHB3ENR;
+	uint32_t Reserved0X3C;
+	uint32_t APB1ENR;
+	uint32_t APB2ENR;
+	uint32_t Reserved0X48;
+	uint32_t Reserved0X4C;
+	uint32_t AHB1LPENR;
+	uint32_t AHB2LPENR;
+	uint32_t AHB3LPENR;
+	uint32_t Reserved0X5C;
+	uint32_t APB1LPENR;
+	uint32_t APB2LPENR;
+	uint32_t Reserved0X68;
+	uint32_t Reserved0x6C;
+	uint32_t BDCR;
+	uint32_t CSR;
+	uint32_t Reserved0X78;
+	uint32_t Reserved0X7C;
+	uint32_t SSCGR;
+	uint32_t PLLI2SCFGR;
+};
+
+
 #define PIN_0 	0
 #define PIN_1 	1
 #define PIN_2 	2
@@ -39,7 +78,7 @@ struct GPIO_t{
 #define PIN_15 15
 
 #define LOW_SPEED 		0
-#define MEDIUM 			1
+#define MEDIUM_SPEED	1
 #define HIGH_SPEED		2
 #define VERY_HIGH_SPEED 3
 
@@ -48,9 +87,10 @@ struct GPIO_t{
 #define GPIO_MODE_ALTFUNC 	2
 #define GPIO_MODE_ANALOG 	3
 
-#define GPIOG_BASE_ADDRESS 0x40021800
-#define GPIOB_BASE_ADDRESS 0x40020400
-#define GPIOC_BASE_ADDRESS 0x40020800
+#define GPIOG_BASE_ADDRESS 	0x40021800
+#define GPIOB_BASE_ADDRESS 	0x40020400
+#define GPIOC_BASE_ADDRESS 	0x40020800
+//#define RCC_BASE_ADDRESS 	0x40023800
 
 #define PORTG ((GPIO *)GPIOG_BASE_ADDRESS)
 #define PORTB ((GPIO *)GPIOB_BASE_ADDRESS)
